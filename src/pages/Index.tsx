@@ -4,77 +4,82 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">ЧЕТРА*СЕРВИС</div>
         <nav>
-          <a href="#">Меню</a>
+          <a href="#">Услуги</a>
           <a href="#">О нас</a>
-          <a href="#">Афиша</a>
-          <a href="#">Адреса</a>
+          <a href="#">Работы</a>
+          <a href="#">Контакты</a>
         </nav>
-        <button className="btn-cta">Забронировать</button>
+        <button className="btn-cta">Заказать ремонт</button>
       </header>
 
       <main>
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
+              БУЛЬДОЗЕР
               <br />
-              ТОЛЬКО <span>ВКУС</span>
+              СНОВА В <span>БОЙ</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Профессиональный ремонт бульдозеров Четра. Опытные мастера, оригинальные запчасти и гарантия на все работы — возвращаем технику в строй быстро.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать
+                Вызвать мастера
               </button>
               <button className="btn-cta" style={{ background: "white" }}>
-                Смотреть меню
+                Наши услуги
               </button>
             </div>
           </div>
-          <div className="hero-img">
+          <div
+            className="hero-img"
+            style={{
+              background: `url("https://cdn.poehali.dev/projects/80d0fd2d-8fec-4878-89dd-4ca6fb258eaa/files/db2769b4-3883-48af-a64b-a326672ec556.jpg") center center / cover`,
+            }}
+          >
             <div className="sticker">
-              СВЕЖАК
+              ГАРАНТИЯ
               <br />
-              КАЖДЫЙ ДЕНЬ
+              НА РАБОТЫ
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #ЧЕТРА
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              ОГОНЬ
+              НАДЁЖНО
             </div>
           </div>
         </section>
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * РЕМОНТ ЧЕТРА Т-170 * ХОДОВАЯ И ДВИГАТЕЛЬ * ОРИГИНАЛЬНЫЕ ЗАПЧАСТИ * ВЫЕЗД НА ОБЪЕКТ * ОПЫТ 15 ЛЕТ *
+            РЕМОНТ ЧЕТРА Т-170 * ХОДОВАЯ И ДВИГАТЕЛЬ * ОРИГИНАЛЬНЫЕ ЗАПЧАСТИ * ВЫЕЗД НА ОБЪЕКТ * ОПЫТ 15 ЛЕТ
           </div>
         </div>
 
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
+            <h2 className="section-title">НАШИ УСЛУГИ</h2>
             <a
               href="#"
               className="text-sm md:text-base"
               style={{ color: "var(--dark)", fontWeight: 800, textTransform: "uppercase" }}
             >
-              Всё меню
+              Все услуги
             </a>
           </div>
 
           <div className="menu-grid">
-            {/* Item 1 */}
+            {/* Услуга 1 */}
             <div className="menu-card">
-              <span className="menu-tag">Хит продаж</span>
+              <span className="menu-tag">Популярное</span>
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Классический бургер"
+                src="https://cdn.poehali.dev/projects/80d0fd2d-8fec-4878-89dd-4ca6fb258eaa/files/a51e6ab5-c08b-47dd-96d4-65c49e755b14.jpg"
+                alt="Ремонт ходовой части"
               />
               <div className="menu-card-body">
                 <div
@@ -85,23 +90,23 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Классика</h3>
-                  <span className="price">1 400 ₽</span>
+                  <h3>Ходовая часть</h3>
+                  <span className="price">от 45 000 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Замена гусениц, катков, звёздочек и натяжных колёс. Полная диагностика ходовой Четра Т-170, Т-11.
                 </p>
               </div>
             </div>
 
-            {/* Item 2 */}
+            {/* Услуга 2 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--secondary)" }}>
-                Острое
+                Срочно
               </span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                src="https://cdn.poehali.dev/projects/80d0fd2d-8fec-4878-89dd-4ca6fb258eaa/files/857c8f4f-e8d3-4152-ad41-4e98adcfe116.jpg"
+                alt="Ремонт гидравлики"
               />
               <div className="menu-card-body">
                 <div
@@ -112,21 +117,21 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Электро Пепперони</h3>
-                  <span className="price">1 800 ₽</span>
+                  <h3>Гидравлика</h3>
+                  <span className="price">от 28 000 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Ремонт и замена гидроцилиндров, насосов, распределителей. Устраняем течи и потерю давления.</p>
               </div>
             </div>
 
-            {/* Item 3 */}
+            {/* Услуга 3 */}
             <div className="menu-card">
               <span className="menu-tag" style={{ background: "var(--accent)", color: "var(--dark)" }}>
-                Популярное
+                Выезд
               </span>
               <img
-                src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                src="https://cdn.poehali.dev/projects/80d0fd2d-8fec-4878-89dd-4ca6fb258eaa/files/db2769b4-3883-48af-a64b-a326672ec556.jpg"
+                alt="Ремонт двигателя"
               />
               <div className="menu-card-body">
                 <div
@@ -137,11 +142,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Диско Сауэр</h3>
-                  <span className="price">1 200 ₽</span>
+                  <h3>Двигатель</h3>
+                  <span className="price">от 80 000 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Капитальный ремонт и обслуживание дизельных двигателей Д-180, Д-160 и их модификаций.
                 </p>
               </div>
             </div>
@@ -150,13 +155,12 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">15 ЛЕТ В ДЕЛЕ.</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              Мы не просто чиним — мы возвращаем машины в боевую готовность. Работаем с любыми моделями Четра: от Т-170 до Т-35. Выезжаем на объект по всему региону, даём гарантию на все виды работ.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
-              Наша история
+              О нашей компании
             </button>
           </div>
           <div className="vibe-img"></div>
@@ -164,31 +168,31 @@ export default function Index() {
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            НАШИ РАБОТЫ
           </h2>
           <div className="social-grid">
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 1"
+                src="https://cdn.poehali.dev/projects/80d0fd2d-8fec-4878-89dd-4ca6fb258eaa/files/a51e6ab5-c08b-47dd-96d4-65c49e755b14.jpg"
+                alt="Работа 1"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 2"
+                src="https://cdn.poehali.dev/projects/80d0fd2d-8fec-4878-89dd-4ca6fb258eaa/files/857c8f4f-e8d3-4152-ad41-4e98adcfe116.jpg"
+                alt="Работа 2"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 3"
+                src="https://cdn.poehali.dev/projects/80d0fd2d-8fec-4878-89dd-4ca6fb258eaa/files/db2769b4-3883-48af-a64b-a326672ec556.jpg"
+                alt="Работа 3"
               />
             </div>
             <div className="social-item">
               <img
-                src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 4"
+                src="https://cdn.poehali.dev/projects/80d0fd2d-8fec-4878-89dd-4ca6fb258eaa/files/a51e6ab5-c08b-47dd-96d4-65c49e755b14.jpg"
+                alt="Работа 4"
               />
             </div>
           </div>
@@ -197,9 +201,9 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">ЧЕТРА*СЕРВИС</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Профессиональный ремонт бульдозеров Четра. Опыт с 2009 года — работаем честно, с гарантией.
           </p>
         </div>
         <div className="footer-links">
@@ -207,7 +211,7 @@ export default function Index() {
           <ul>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Меню
+                Услуги
               </a>
             </li>
             <li>
@@ -217,29 +221,30 @@ export default function Index() {
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Политика
+                Контакты
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
+                Политика
               </a>
             </li>
           </ul>
         </div>
         <div className="footer-links">
-          <h4>Часы работы</h4>
+          <h4>Контакты</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>+7 (800) 000-00-00</li>
+            <li>info@chetra-servis.ru</li>
           </ul>
         </div>
-        <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+        <div className="footer-links">
+          <h4>Режим работы</h4>
+          <ul>
+            <li>Пн–Пт: 8:00–20:00</li>
+            <li>Сб: 9:00–18:00</li>
+            <li>Вс: выходной</li>
+          </ul>
         </div>
       </footer>
     </>
